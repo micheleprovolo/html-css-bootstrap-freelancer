@@ -8,6 +8,8 @@
 
 .row {
   width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .row:after {
@@ -60,7 +62,7 @@
 
 /* sezione icone grandi */
 .icone img {
-  max-width: 30%;
+  max-width: 90%;
 }
 
 .about {
