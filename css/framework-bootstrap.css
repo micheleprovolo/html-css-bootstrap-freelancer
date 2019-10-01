@@ -1,8 +1,5 @@
 /* regole generali */
 * {
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
   font-family: 'Lato', sans-serif;
 }
 
@@ -12,15 +9,9 @@
   padding-bottom: 2%;
 }
 
-.row:after {
-  content: "";
-  display:table;
-  clear:both;
-}
-
 /* regole di colonna */
 [class*="col-"] {
-  float:left;
+  
 }
 
 /* REGOLE DI PAGINA */
