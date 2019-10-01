@@ -10,14 +10,11 @@
 }
 
 /* regole di colonna */
-[class*="col-"] {
-  
-}
+[class*="col-"] {}
+
 
 /* REGOLE DI PAGINA */
-
-.header {
-}
+.header {}
 
 /* navbar */
 .navbar {
@@ -53,7 +50,7 @@
 
 /* sezione icone grandi */
 .icone img {
-  max-width: 90%;
+  max-width: 80%;
 }
 
 .about {
