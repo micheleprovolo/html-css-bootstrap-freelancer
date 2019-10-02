@@ -13,6 +13,7 @@
 [class*="col-"] {}
 
 /* REGOLE DI PAGINA */
+
 /* navbar */
 .navbar {
   text-transform: uppercase;
@@ -83,7 +84,6 @@
   text-align: center;
 }
 
-
 /* sezione icone grandi */
 .icone img {
   max-width: 80%;
@@ -103,7 +103,7 @@
   font-size: 20px;
 }
 
-
+/* footer */
 footer {
   background-color: #2c3e50;
   color: white;
@@ -114,17 +114,6 @@ footer {
   .menu {
     display: none
   }
-}
-
-/* da 992 in su */
-@media (min-width: 992px) {
-  .menu {
-    display: inline-block;
-  }
-}
-
-/* fino a 991 */
-@media (max-width: 991px) {
   .ham {
     display: inline-block;
   }
@@ -132,6 +121,9 @@ footer {
 
 /* da 992 in su */
 @media (min-width: 992px) {
+  .menu {
+    display: inline-block;
+  }
   .ham {
     display: none;
   }
