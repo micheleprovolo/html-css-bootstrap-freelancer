@@ -83,16 +83,26 @@
   text-align: center;
 }
 
-/* sezione portfolio */
+
 /* sezione icone grandi */
 .icone img {
   max-width: 80%;
 }
 
+/* sezioone about */
 .about {
   background-color: #1abc9c;
   color: white;
 }
+
+/* sezione contact me */
+.btn-primary {
+  background-color: #1abc9c;
+  color: #fff;
+  padding: 5%;
+  font-size: 20px;
+}
+
 
 footer {
   background-color: #2c3e50;
